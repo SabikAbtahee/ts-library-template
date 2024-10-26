@@ -1,0 +1,23 @@
+{
+    "name": "@mightykraken/ts-library-template",
+    "version": "0.0.0-development",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "semantic-release": "semantic-release"
+    },
+    "author": "Sabik Abtahee",
+    "license": "ISC",
+    "devDependencies": {
+        "semantic-release": "^24.2.0",
+        "typescript": "^5.6.3"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
+}
