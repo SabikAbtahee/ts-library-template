@@ -10,10 +10,16 @@ npm install @mightykraken/ts-library-template
 -   Check release.yml file
 -   Check release.config.cjs file
 -   Check tsconfig.json file
+-   pushing to branch next will create a version X.X.X-next.Y which can be installed
+-   purpose of next is to use latest code but it is not fully tested
+
+```
+npm install @mightykraken/ts-library-template@next
+```
 
 # Commit semantics
 
--   fix(pencil): fix release
+-   fix(pencil): fix release - 1.0.0 -> 1.0.1
 -   feat(pencil): feature release
 -   perf(pencil):
 -   BREAKING CHANGE: Breaking release
